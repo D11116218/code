@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-#矩形_最小包圍物體
+#最小包圍矩形
 src=cv2.imread("c.jpg",cv2.IMREAD_GRAYSCALE)
 
 ret,dst_binary=cv2.threshold(src,175,255,cv2.THRESH_BINARY)
